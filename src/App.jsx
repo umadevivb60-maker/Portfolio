@@ -19,10 +19,9 @@ function App() {
       <Con />
       <Navbar />
       <Footer />
-      {/* <Counter />
-      <Data />  */}
+      
     </>
   );
 }
 
-export default App;
+export default App
