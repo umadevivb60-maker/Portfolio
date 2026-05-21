@@ -8,13 +8,7 @@ function Home() {
     >
       <div className="text-center px-6">
 
-        {/* Profile Image */}
-        <img
-          src="public/Images/kathu1.jpg"
-          alt="Umadevi"
-          className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-white shadow-2xl mx-auto mb-8 hover:scale-105 transition duration-300"
-        />
-
+      
         {/* Name */}
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-wide mb-4 text-slate-900">
           UMADEVI V
