@@ -84,4 +84,4 @@ function Footer() {
   );
 }
 
-export default Footer; className="bg-gradient-to-b from-black via-green-900 to-emerald-500 py-20 px-6 md:px-20 min-h-screen flex items-center justify-center"
+export default Footer;
