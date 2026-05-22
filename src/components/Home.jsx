@@ -4,7 +4,7 @@ function Home() {
   return (
     <header
       id="home"
-      className="bg-gradient-to-b from-blue-700 via-blue-500 to-white min-h-screen flex items-center justify-center"
+     className="bg-gradient-to-b from-black via-green-900 to-emerald-500"
     >
       <div className="text-center px-6">
 
