@@ -1,75 +1,45 @@
 import React from "react";
 
 function Skill() {
+  const technical = ["C Programming", "Java", "HTML", "CSS", "JavaScript"];
+  const creative = ["Matte Painting", "Storyboard Writing", "Animation", "Video Editing"];
+
   return (
-    <section
-      id="skills"
-      className="bg-blue-50 py-20 px-6 md:px-20"
-    >
-      {/* Alignment matched with Education section */}
+    <section id="skills" className="py-32 px-6 bg-black">
       <div className="max-w-4xl mx-auto">
 
-        {/* Heading style matched with Education */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600 mb-12 border-b-4 border-sky-400 inline-block pb-2">
+        {/* Heading in Green */}
+        <h2 className="text-4xl md:text-6xl font-black text-green-500 mb-16 tracking-tight">
           SKILLS
         </h2>
 
-        {/* Cards */}
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-12 md:grid-cols-2">
 
-          {/* Technical Skills */}
-          <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100 hover:-translate-y-2 hover:scale-105 transition duration-300">
-
-            <h3 className="text-2xl font-bold text-blue-600 mb-4">
+          {/* Technical Skills Sub-category */}
+          <div className="space-y-6">
+            <h3 className="text-xl font-extrabold tracking-wider text-green-400 uppercase border-b border-zinc-800 pb-2">
               Technical Skills
             </h3>
-
-            <ul className="space-y-4 text-lg text-slate-700">
-              <li className="bg-blue-50 px-4 py-3 rounded-xl hover:bg-blue-100 transition font-medium">
-                C Programming
-              </li>
-
-              <li className="bg-blue-50 px-4 py-3 rounded-xl hover:bg-blue-100 transition font-medium">
-                Java
-              </li>
-
-              <li className="bg-blue-50 px-4 py-3 rounded-xl hover:bg-blue-100 transition font-medium">
-                HTML
-              </li>
-
-              <li className="bg-blue-50 px-4 py-3 rounded-xl hover:bg-blue-100 transition font-medium">
-                CSS
-              </li>
-
-              <li className="bg-blue-50 px-4 py-3 rounded-xl hover:bg-blue-100 transition font-medium">
-                JavaScript
-              </li>
+            <ul className="space-y-3">
+              {technical.map((item) => (
+                <li key={item} className="bg-zinc-900/40 border border-zinc-800 px-5 py-3.5 rounded-2xl text-white font-medium transition duration-200">
+                  {item}
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Creative Skills */}
-          <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100 hover:-translate-y-2 hover:scale-105 transition duration-300">
-
-            <h3 className="text-2xl font-bold text-blue-600 mb-4">
+          {/* Creative Skills Sub-category */}
+          <div className="space-y-6">
+            <h3 className="text-xl font-extrabold tracking-wider text-green-400 uppercase border-b border-zinc-800 pb-2">
               Creative Skills
             </h3>
-
-            <ul className="space-y-4 text-lg text-slate-700">
-              <li className="bg-sky-50 px-4 py-3 rounded-xl hover:bg-sky-100 transition font-medium">
-                Matte Painting
-              </li>
-
-              <li className="bg-sky-50 px-4 py-3 rounded-xl hover:bg-sky-100 transition font-medium">
-                Storyboard Writing
-              </li>
-
-              <li className="bg-sky-50 px-4 py-3 rounded-xl hover:bg-sky-100 transition font-medium">
-                Animation
-              </li>
-
-              <li className="bg-sky-50 px-4 py-3 rounded-xl hover:bg-sky-100 transition font-medium">
-                Video Editing
-              </li>
+            <ul className="space-y-3">
+              {creative.map((item) => (
+                <li key={item} className="bg-zinc-900/40 border border-zinc-800 px-5 py-3.5 rounded-2xl text-white font-medium transition duration-200">
+                  {item}
+                </li>
+              ))}
             </ul>
           </div>
 

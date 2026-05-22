@@ -4,28 +4,27 @@ function Con() {
   return (
     <section
       id="contacts"
-      className="bg-gradient-to-b from-white to-blue-50 py-20 px-6 md:px-20"
+      className="bg-gradient-to-b from-black via-green-900 to-emerald-500 py-20 px-6 md:px-20 min-h-screen flex items-center justify-center"
     >
-      {/* Container aligned like Education section */}
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto w-full">
 
-        {/* Heading style matching Education */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600 mb-12 border-b-4 border-sky-400 inline-block pb-2">
+        {/* Heading */}
+        <h2 className="text-4xl md:text-5xl font-extrabold text-green-100 mb-12 border-b-4 border-emerald-400 inline-block pb-2">
           CONTACT
         </h2>
 
         {/* Contact Card */}
-        <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100 hover:-translate-y-2 hover:scale-105 transition duration-300">
+        <div className="bg-black/40 backdrop-blur-md rounded-3xl p-8 md:p-12 shadow-2xl border border-emerald-500/30 hover:-translate-y-2 hover:scale-105 transition duration-300">
 
-          <div className="space-y-6 text-lg text-slate-700">
+          <div className="space-y-6 text-lg text-emerald-100">
 
             {/* Email */}
-            <div className="border-b border-slate-100 pb-4">
+            <div className="border-b border-emerald-500/20 pb-4">
               <p>
-                <strong className="text-blue-600">Email:</strong>{" "}
+                <strong className="text-emerald-400">Email:</strong>{" "}
                 <a
                   href="mailto:animeanimator73@gmail.com"
-                  className="hover:text-blue-500 transition"
+                  className="hover:text-green-400 transition"
                 >
                   animeanimator73@gmail.com
                 </a>
@@ -33,12 +32,12 @@ function Con() {
             </div>
 
             {/* Phone */}
-            <div className="border-b border-slate-100 pb-4">
+            <div className="border-b border-emerald-500/20 pb-4">
               <p>
-                <strong className="text-blue-600">Phone:</strong>{" "}
+                <strong className="text-emerald-400">Phone:</strong>{" "}
                 <a
                   href="tel:8157894735"
-                  className="hover:text-blue-500 transition"
+                  className="hover:text-green-400 transition"
                 >
                   8157894735
                 </a>
@@ -48,7 +47,7 @@ function Con() {
             {/* Location */}
             <div>
               <p>
-                <strong className="text-blue-600">Location:</strong>{" "}
+                <strong className="text-emerald-400">Location:</strong>{" "}
                 Thiruvananthapuram, India
               </p>
             </div>
