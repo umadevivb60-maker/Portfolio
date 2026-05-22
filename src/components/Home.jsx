@@ -9,7 +9,7 @@ function Home() {
       <div className="text-center max-w-3xl mx-auto space-y-6">
         
         <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-500/10 border border-green-500/30 text-xs font-bold uppercase tracking-widest text-green-400">
-          Available for Work
+        
         </span>
 
         {/* Heading in Green */}
